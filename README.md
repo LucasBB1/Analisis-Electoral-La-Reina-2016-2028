@@ -1,12 +1,14 @@
 # Análisis político-electoral de La Reina, 2016–2028
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23841607.svg)](https://doi.org/10.5281/zenodo.23841607)
+
 Pipeline reproducible en R para analizar los resultados electorales de la comuna de La Reina (Región Metropolitana, Chile) entre 2016 y 2025 y simular escenarios para la elección municipal de 2028.
 
 Todos los datos provienen de los archivos oficiales del Servicio Electoral de Chile (SERVEL). Las cifras se calculan desde los archivos originales, mesa por mesa, y cada paso deja tablas de validación.
 
 **Autor:** Lucas Bottinelli Baltra · [lucasbb1.github.io](https://lucasbb1.github.io)
 
-**Documento de trabajo:** Bottinelli Baltra, L. (2026). *La Reina hacia 2028: realineamiento, voto cruzado y escenarios municipales* (Documento de trabajo N.° 1). [PDF](https://lucasbb1.github.io/documentos/Bottinelli-Baltra_2026_La-Reina-2028.pdf) · [resumen](https://lucasbb1.github.io/posts/la-reina-2028.html) · [mapa interactivo](https://lucasbb1.github.io/mapas/la-reina-2024.html). Para citar el repositorio, ver `CITATION.cff`.
+**Documento de trabajo:** Bottinelli Baltra, L. (2026). *La Reina hacia 2028: realineamiento, voto cruzado y escenarios municipales* (Documento de trabajo N.° 1). https://doi.org/10.5281/zenodo.23841814 · [PDF](https://lucasbb1.github.io/documentos/Bottinelli-Baltra_2026_La-Reina-2028.pdf) · [resumen](https://lucasbb1.github.io/posts/la-reina-2028.html) · [mapa interactivo](https://lucasbb1.github.io/mapas/la-reina-2024.html). Código y datos archivados en Zenodo: https://doi.org/10.5281/zenodo.23841607. Para citar el repositorio, ver `CITATION.cff`.
 
 ---
 
