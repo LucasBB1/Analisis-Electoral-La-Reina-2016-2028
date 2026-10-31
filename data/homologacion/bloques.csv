@@ -1,0 +1,34 @@
+codigo,nombre,bloque,familia,nota
+PC,Partido Comunista de Chile,Izquierda Convencional y Progresista,Izquierda,Clasificación del autor
+FA,Frente Amplio,Izquierda Convencional y Progresista,Izquierda,Clasificación del autor
+CS,Convergencia Social,Izquierda Convencional y Progresista,Izquierda,Homologado a FA (fusión de 2024)
+RD,Revolución Democrática,Izquierda Convencional y Progresista,Izquierda,Homologado a FA (fusión de 2024)
+COMUNES,Comunes,Izquierda Convencional y Progresista,Izquierda,Homologado a FA (fusión de 2024)
+AH,Acción Humanista,Izquierda Convencional y Progresista,Izquierda,Clasificación del autor
+PODER,Poder,Izquierda Convencional y Progresista,Izquierda,Clasificación del autor
+UPA,Unión Patriótica,Izquierda Radical,Izquierda,Clasificación del autor
+PH,Partido Humanista,Izquierda Humanista,Izquierda,Clasificación del autor
+PI,Igualdad,Izquierda Humanista,Izquierda,Clasificación del autor
+PAIS,País,Izquierda Humanista,Izquierda,Clasificación del autor
+PAVP,Partido Alianza Verde Popular,Izquierda Animalista y Ecologista,Izquierda,Clasificación del autor
+PEV,Partido Ecologista Verde,Izquierda Animalista y Ecologista,Izquierda,Clasificación del autor
+PS,Partido Socialista de Chile,Centroizquierda Concertacionista,Centroizquierda,Clasificación del autor
+PPD,Partido Por la Democracia,Centroizquierda Concertacionista,Centroizquierda,Clasificación del autor
+PR,Partido Radical de Chile,Centroizquierda Concertacionista,Centroizquierda,Clasificación del autor
+PL,Partido Liberal de Chile,Centroizquierda Concertacionista,Centroizquierda,Clasificación del autor
+FRVS,Federación Regionalista Verde Social,Centroizquierda Regionalista,Centroizquierda,Clasificación del autor
+PRO,Partido Progresista de Chile,Centroizquierda (otros partidos),Centroizquierda,Clasificación del autor
+CIUDADANOS,Ciudadanos,Centroizquierda (otros partidos),Centroizquierda,Clasificación del autor
+PDC,Partido Demócrata Cristiano,Centro,Centro,Clasificación probada también como centroizquierda (robustez)
+CU,Centro Unido,Centro,Centro,Clasificación del autor
+DEMOCRATAS,Demócratas,Centroderecha,Centro,Clasificación del autor
+RN,Renovación Nacional,Derecha Convencional y Centroderecha,Derecha,Clasificación del autor
+UDI,Unión Demócrata Independiente,Derecha Convencional y Centroderecha,Derecha,Clasificación del autor
+EVOPOLI,Evolución Política,Derecha Convencional y Centroderecha,Derecha,Clasificación del autor
+PRI,Partido Regionalista Independiente,Derecha Convencional y Centroderecha,Derecha,Clasificación del autor
+PDG,Partido De la Gente,Populismo,Populismo,Sin dirección ideológica estable en el eje izquierda-derecha; se clasifica aparte
+PREP,Partido Republicano de Chile,Ultraderecha,Ultraderecha,Clasificación del autor
+PSC,Partido Social Cristiano / P. Cristiano de Chile,Ultraderecha,Ultraderecha,Clasificación del autor
+PNL,Partido Nacional Libertario,Ultraderecha Libertaria,Ultraderecha,Clasificación del autor
+AMARILLOS,Amarillos por Chile,Centroderecha,Centro,Clasificación del autor (sin votación en La Reina en el período)
+IND,Candidaturas independientes sin partido (listas de independientes y fuera de pacto),Independientes,Independiente,Sin partido no se asigna orientación ideológica

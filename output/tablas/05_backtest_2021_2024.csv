@@ -1,0 +1,6 @@
+﻿"familia";"pct_real_2024";"pct_p10";"pct_mediana";"pct_p90";"dentro_80";"escanos_real_2024";"p_escanos_reales";"escanos_mediana"
+"Derecha";"37,3";"22,6";"37,3";"54,8";TRUE;"4";"0,2356";"3"
+"Ultraderecha";"20,1";"2,2";"5,0";"11,4";FALSE;"2";"0,0246";"0"
+"Izquierda";"23,2";"13,6";"24,3";"40,0";TRUE;"1";"0,2996";"2"
+"Centroizquierda";"16,1";"12,6";"20,7";"32,6";TRUE;"1";"0,4128";"1"
+"Centro";"3,3";"2,9";"6,7";"15,1";TRUE;"0";"0,4206";"1"
