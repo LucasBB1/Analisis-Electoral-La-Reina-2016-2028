@@ -18,11 +18,22 @@ alc <- mv %>% filter(id=="2024_alcalde") %>% group_by(local) %>%
    nb_alc=round(100*sum(votos[tipo_voto!="valido"])/e,1))
 f2 <- function(i, pat, nm){ mv %>% filter(id==i, tipo_voto=="valido") %>% group_by(local) %>%
   summarise(!!nm := round(100*sum(votos[grepl(pat,candidato)])/sum(votos),1))}
+# En 2025 el SERVEL renombró o reorganizó tres locales respecto de 2024:
+# "ESCUELA YANGTSE" (antes "ESCUELA BASICA YANGTSE"); la Sección Media del Complejo
+# Educacional funcionó como un solo local (en 2024, L1 y L2), y el Colegio Sagrado Corazón
+# no fue local de votación (sin dato 2025). Se homologan los nombres para unir con 2024.
+armoniza25 <- function(df){
+  df <- df %>% mutate(local = recode(local, "ESCUELA YANGTSE" = "ESCUELA BASICA YANGTSE"))
+  media <- df %>% filter(local == "COMPLEJO EDUCACIONAL LA REINA SECCION MEDIA")
+  bind_rows(df %>% filter(local != "COMPLEJO EDUCACIONAL LA REINA SECCION MEDIA"),
+            media %>% mutate(local = "COMPLEJO EDUCACIONAL LA REINA SECCION MEDIA L1"),
+            media %>% mutate(local = "COMPLEJO EDUCACIONAL LA REINA SECCION MEDIA L2"))
+}
 gore <- f2("2024_gore_2v","CLAUDIO ORREGO","c_orrego")
-jara <- f2("2025_pres_2v","JARA","jara2v")
+jara <- f2("2025_pres_2v","JARA","jara2v") %>% armoniza25()
 dip <- mb %>% filter(id=="2025_diputados", tipo_voto=="valido") %>% group_by(local) %>%
   summarise(izq25=round(100*sum(votos[familia=="Izquierda"],na.rm=T)/sum(votos),1),
-            ult25=round(100*sum(votos[familia=="Ultraderecha"],na.rm=T)/sum(votos),1))
+            ult25=round(100*sum(votos[familia=="Ultraderecha"],na.rm=T)/sum(votos),1)) %>% armoniza25()
 t <- con %>% left_join(alc %>% select(local,pal,nb_alc)) %>% left_join(gore) %>% left_join(jara) %>% left_join(dip) %>%
   mutate(opos=izq+ci+cen, brecha_pal=round(pal-(der+ult),1), dif_nb=nb-nb_alc) %>% arrange(desc(opos))
 options(width=250); print(as.data.frame(t %>% select(local,mesas,emit,der,ult,izq,ci,cen,opos,huer,nb,nb_alc,pal,brecha_pal,c_orrego,jara2v,izq25,ult25)))
