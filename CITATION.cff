@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Bottinelli Baltra"
     given-names: "Lucas"
+    orcid: "https://orcid.org/0009-0000-4865-7261"
     affiliation: "Pontificia Universidad Católica de Chile"
 version: "1.0.0"
 date-released: "2026-11-01"
@@ -25,6 +26,7 @@ preferred-citation:
   authors:
     - family-names: "Bottinelli Baltra"
       given-names: "Lucas"
+      orcid: "https://orcid.org/0009-0000-4865-7261"
   year: 2026
   number: "1"
   collection-title: "Documento de trabajo"
